@@ -23,4 +23,6 @@ yarn-error.log*
 
 .idea
 
-public/assets/igv
+public/assets/igvx
+
+**/dist/
