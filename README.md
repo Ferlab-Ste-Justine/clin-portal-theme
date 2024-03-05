@@ -12,7 +12,3 @@ To modify your the theme:
 2. create a commit with your changes
 3. create a create a pull request
 4. Update the main repo with the submodule reference updated
-
-
-
-
