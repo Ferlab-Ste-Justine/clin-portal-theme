@@ -27045,6 +27045,12 @@ body {
 .ant-form-item-label > label {
   font-weight: 500;
 }
+.ant-message-success .anticon {
+  color: #52c41a;
+}
+.ant-message-error .anticon {
+  color: #cf1322;
+}
 .ant-form-item-label > label .ant-form-item-tooltip {
   cursor: default;
 }
