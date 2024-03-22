@@ -27040,10 +27040,11 @@ body {
 }
 .ant-form-item-explain,
 .ant-form-item-extra {
-  font-size: 12px;
+  font-size: 14px;
 }
 .ant-form-item-label > label {
   font-weight: 500;
+  color: #364a63;
 }
 .ant-message-success .anticon {
   color: #52c41a;
