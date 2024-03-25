@@ -113,10 +113,11 @@ body {
 @radio-dot-disabled-color: @gray-6;
 
 // Radio buttons
+@radio-button-color: @gray-8;
 @radio-button-hover-color: @blue-7;
 @radio-button-active-color: @heading-color;
 @radio-disabled-button-checked-bg: @gray-3;
-// focus & check style overrides
+// hover , focus & check style overrides
 .ant-radio-button-wrapper-disabled.ant-radio-button-wrapper-checked {
   border-color: @radio-disabled-button-checked-bg;
 }
@@ -124,6 +125,17 @@ body {
 .ant-radio-group-solid
   .ant-radio-button-wrapper-checked:not(.ant-radio-button-wrapper-disabled):focus-within {
   box-shadow: none;
+}
+
+.ant-radio-button-wrapper:focus{
+  color: @blue-8;
+  border-color:  @blue-7;
+}
+
+.ant-radio-group-solid
+  .ant-radio-button-wrapper-checked:not(.ant-radio-button-wrapper-disabled):hover {
+  background-color: @blue-7;
+  border-color:  @blue-7;
 }
 
 // Input helper (magic numbers)
