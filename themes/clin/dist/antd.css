@@ -26970,6 +26970,9 @@ div.ant-typography-edit-content.ant-typography-rtl {
 .ant-descriptions-item-label {
   color: #63768f;
 }
+.ant-descriptions-item-label::after {
+  display: none;
+}
 .ant-descriptions.label-20 .ant-descriptions-item-label {
   width: 20%;
 }
