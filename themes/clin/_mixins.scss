@@ -1,0 +1,6 @@
+// Mixins overrides and definitions for clin-ui
+
+// Override ferlab-ui mixins for QueryBuilder Header to match UI kit
+@mixin query-builder-header-button-dirty-focus {}
+@mixin query-builder-header-button-nested-focus-visible {}
+@mixin query-builder-header-button-focus-visible {}

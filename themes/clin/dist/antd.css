@@ -26932,13 +26932,21 @@ div.ant-typography-edit-content.ant-typography-rtl {
   color: #B0E4F8;
   border-width: 2px;
 }
-.ant-btn-text:hover {
-  background-color: #f8fafc;
+.ant-btn-text {
+  color: #006aa3;
 }
-.ant-btn-text:active {
+.ant-btn-text:hover,
+.ant-btn-text:active,
+.ant-btn-text:focus,
+.ant-btn-text:focus-visible {
   background-color: #f1f5f9;
 }
+.ant-btn-text:active {
+  border-color: #e1e8ef;
+}
 .ant-btn-text:focus-visible {
+  border-width: 2px;
+  border-color: #f1f5f9;
   box-shadow: 0 0 0 2px #006aa3;
 }
 .ant-btn-text.ant-btn-dangerous:not(:disabled):focus-visible {
