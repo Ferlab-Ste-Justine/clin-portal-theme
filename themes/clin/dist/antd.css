@@ -26932,19 +26932,20 @@ div.ant-typography-edit-content.ant-typography-rtl {
   color: #B0E4F8;
   border-width: 2px;
 }
-.ant-btn-text {
+.ant-btn-text:not([disabled]):not(:active) {
   color: #006aa3;
 }
-.ant-btn-text:hover,
-.ant-btn-text:active,
-.ant-btn-text:focus,
-.ant-btn-text:focus-visible {
-  background-color: #f1f5f9;
-}
-.ant-btn-text:active {
+.ant-btn-text:not([disabled]):active {
+  color: #0a5085;
   border-color: #e1e8ef;
 }
-.ant-btn-text:focus-visible {
+.ant-btn-text:not([disabled]):hover,
+.ant-btn-text:not([disabled]):active,
+.ant-btn-text:not([disabled]):focus,
+.ant-btn-text:not([disabled]):focus-visible {
+  background-color: #f1f5f9;
+}
+.ant-btn-text:not([disabled]):focus-visible {
   border-width: 2px;
   border-color: #f1f5f9;
   box-shadow: 0 0 0 2px #006aa3;
