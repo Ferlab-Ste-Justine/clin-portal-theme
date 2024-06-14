@@ -134,23 +134,25 @@
 
   &-text {
 
-    &:not(:active){
-      color: @blue-8;
-    }
-
-    &:active{
-      color: @blue-9;
-      border-color:  @gray-4;
-    }
-
-    &:hover, &:active, &:focus, &:focus-visible {
-      background-color: @gray-3;
-    }
-
-    &:focus-visible {
-      border-width: 2px;
-      border-color: @gray-3;
-      box-shadow: 0 0 0 2px @blue-8;
+    &:not([disabled]){
+      &:not(:active){
+        color: @blue-8;
+      }
+  
+      &:active{
+        color: @blue-9;
+        border-color:  @gray-4;
+      }
+  
+      &:hover, &:active, &:focus, &:focus-visible {
+        background-color: @gray-3;
+      }
+  
+      &:focus-visible {
+        border-width: 2px;
+        border-color: @gray-3;
+        box-shadow: 0 0 0 2px @blue-8;
+      }
     }
 
     &.@{btn-prefix-cls}-dangerous:not(:disabled) {
