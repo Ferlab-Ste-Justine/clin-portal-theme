@@ -26932,17 +26932,18 @@ div.ant-typography-edit-content.ant-typography-rtl {
   color: #B0E4F8;
   border-width: 2px;
 }
-.ant-btn-text {
+.ant-btn-text:not(:active) {
   color: #006aa3;
+}
+.ant-btn-text:active {
+  color: #0a5085;
+  border-color: #e1e8ef;
 }
 .ant-btn-text:hover,
 .ant-btn-text:active,
 .ant-btn-text:focus,
 .ant-btn-text:focus-visible {
   background-color: #f1f5f9;
-}
-.ant-btn-text:active {
-  border-color: #e1e8ef;
 }
 .ant-btn-text:focus-visible {
   border-width: 2px;
