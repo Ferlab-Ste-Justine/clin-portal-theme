@@ -153,6 +153,27 @@
         border-color: @gray-3;
         box-shadow: 0 0 0 2px @blue-8;
       }
+
+      &.dirty{
+        &:not(:active) {
+          color: @btn-dirty-color;
+        }
+  
+        &:active {
+          color: @btn-dirty-active-color;
+          border-color: @btn-dirty-active-border-color;
+        }
+  
+        &:hover, &:active, &:focus, &:focus-visible {
+          background-color: @btn-dirty-hover-background-color;
+        }
+  
+        &:focus-visible {
+          border-width: 2px;
+          border-color: @btn-dirty-hover-background-color;
+          box-shadow: 0 0 0 2px @btn-dirty-color;
+        }
+      }
     }
 
     &.@{btn-prefix-cls}-dangerous:not(:disabled) {
