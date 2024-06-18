@@ -26950,6 +26950,24 @@ div.ant-typography-edit-content.ant-typography-rtl {
   border-color: #f1f5f9;
   box-shadow: 0 0 0 2px #006aa3;
 }
+.ant-btn-text:not([disabled]).dirty:not(:active) {
+  color: #d46b08;
+}
+.ant-btn-text:not([disabled]).dirty:active {
+  color: #ad4e00;
+  border-color: #ffe7ba;
+}
+.ant-btn-text:not([disabled]).dirty:hover,
+.ant-btn-text:not([disabled]).dirty:active,
+.ant-btn-text:not([disabled]).dirty:focus,
+.ant-btn-text:not([disabled]).dirty:focus-visible {
+  background-color: #fff7e6;
+}
+.ant-btn-text:not([disabled]).dirty:focus-visible {
+  border-width: 2px;
+  border-color: #fff7e6;
+  box-shadow: 0 0 0 2px #d46b08;
+}
 .ant-btn-text.ant-btn-dangerous:not(:disabled):focus-visible {
   box-shadow: 0 0 0 2px #cf1322;
 }
