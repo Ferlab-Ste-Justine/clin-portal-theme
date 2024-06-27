@@ -1,0 +1,43 @@
+@import './dist/antd';
+@import 'theme.template';
+
+html {
+  font-size: 12px;
+}
+.ant-space-compact-block {
+  max-width: 100%;
+  width: unset!important;
+}
+
+body {
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  min-height: 100vh;
+}
+
+#root,
+#clin-ui,
+.App {
+  height: 100%;
+}
+
+#appContainer {
+  height: 100vh;
+}
+
+.ant-tag {
+  white-space: break-spaces;
+}
+
+.simplebar-content {
+  height: 100%;
+}
+
+.simplebar-content-wrapper {
+  overflow: hidden scroll !important;
+}
+
+[ant-click-animating-without-extra-node='true']::after{
+  display:none;
+}
