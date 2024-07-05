@@ -1,0 +1,119 @@
+@import '~@ferlab/ui/themes/default/theme.template';
+@import './dist/colors';
+
+:root{
+    --font-weight-semibold: 500;
+    --font-weight-bold: 500;
+
+    /* Layout */
+    --default-padding: 16px 32px;
+    --default-margin: 16px;
+    --default-page-content-padding: 24px;
+
+    --main-header-height: 48px;
+    --main-footer-height: 50px;
+    --page-header-height: 48px;
+
+    --container-width: 1600px;
+
+    /* Query Builder */
+    --query-default-action-default-color: var(--gray-8);
+    --query-default-action-hover-color: var(--gray-8);
+    --query-default-action-focus-color: var(--gray-8);
+
+    --query-builder-header-tools-icon-color-dirty: var(--btn-dirty-color);
+    --query-builder-header-tools-icon-hover: var(--blue-8);
+    --query-builder-header-tools-icon-focus: var(--blue-8);
+    --query-builder-header-tools-icon-border: transparent;
+
+    --query-builder-bg: var(--white);
+    --query-builder-border-color: transparent;
+    --query-builder-header-border-divider-color: #d8e1eb;
+
+    --query-bar-bg: #f8fafc;
+    --query-bar-bg-active: #d6f1fb;
+    --query-bar-border-color: #e1e8ef;
+    --query-bar-border-color-active: #8bd7f4;
+
+    --query-bar-identifier: #b3c2d3;
+    --query-bar-identifier-active: #23a4d7;
+
+    --query-pill-bg: #e1e8ef;
+    --query-pill-bg-active: #b0e4f8;
+    --query-pill-button-default-color: var(--gray-8);
+    --query-pill-button-hover-color: var(--gray-8);
+    --query-pill-button-focus-color: var(--gray-8);
+
+    --custom-pill-bg: var(--gray-4);
+    --custom-pill-bg-active: var(--blue-6);
+    --custom-pill-button-default-color: var(--gray-1);
+    --custom-pill-button-hover-color: var(--gray-1);
+    --custom-pill-button-focus-color: var(--gray-1);
+
+    --query-icon-operator-color: var(--gray-8);
+    --query-text-operator-color-hover: var(--gray-8);
+    --query-icon-operator-color-hover: var(--gray-8);
+    --query-icon-label-operator-color: var(--gray-8);
+
+    --query-combiner-button-default-color: var(--gray-8);
+    --query-combiner-button-hover-color: var(--gray-8);
+    --query-combiner-button-focus-color: var(--gray-8);
+
+    /* SidebarMenu */
+    --sidebar-menu-width: 180px;
+    --sidebar-menu-collapsed-width: 50px;
+    --sidebar-menu-background-color: var(--blue-9);
+    --sidebar-menu-toggle-icon-size: 21px;
+
+    --sidebar-menu-item-icon-size: 24px;
+    --sidebar-menu-item-height: 50px;
+    --sidebar-menu-item-text-color: #fff;
+    --sidebar-menu-item-active-background-color: var(--blue-8);
+    --sidebar-menu-item-active-color: #fff;
+    --sidebar-menu-item-hover-color: #fff;
+    --sidebar-menu-item-hover-opacity: 0.8;
+    --sidebar-menu-item-border-focus: none;
+    --sidebar-menu-item-border-focus-color: white;
+
+    --sidebar-quick-filter-input-box-shadow-hover: 0 0 0 2px #23a4d7;
+    --sidebar-quick-filter-input-box-shadow-focus: 0 0 0 2px var(--blue-9), 0 0 0 3px white;
+    --sidebar-quick-filter-input-placeholder-color: #8b9db2;
+    --sidebar-quick-filter-input-text-color: #364a63;
+
+    --sidebar-content-panel-padding: 16px;
+    --sidebar-content-panel-width: 320px;
+    --sidebar-content-panel-close-icon-color: var(--blue-9);
+    --sidebar-content-panel-right-border: 1px solid var(--gray-5);
+    --sidebar-content-panel-background-color: transparent;
+    --sidebar-content-panel-close-icon-width: 16px;
+
+    /* Filters */
+    --filter-input-label-color: var(--blue-10);
+    --filter-actions-border-color: var(--gray-4);
+    --filter-actions-disabled-color: var(--gray-6);
+    --filter-actions-disabled-border-color: var(--gray-5);
+    --filter-actions-disabled-background-color: var(--gray-3);
+    --filter-actions-border-apply-background-color: var(--blue-8);
+    --filter-actions-border-apply-border-color: var(--blue-8);
+
+    --checkbox-filter-types-mc-footer: var(--blue-8);
+    --checkbox-filter-links-hover: var(--blue-8);
+    --checkbox-filter-actions-separator-links: var(--blue-8);
+    --checkbox-filter-actions-separator-background: var(--gray-6);
+
+    /* Grid Card V2 */
+    --grid-card-light-background-color: var(--gray-1);
+    --grid-card-shade-background-color: var(--gray-2);
+
+    /* EMPTY */
+    --empty-image-color: var(--gray-5);
+    --empty-content-color: var(--gray-7);
+
+    /* Collapse */
+    --collapse-light-background-color: white;
+    --collapse-shade-background-color: var(--gray-3);
+    --collapse-header-border-color: var(--gray-4);
+
+    /* Upload IDS */
+    --file-upload-item-color: var(--blue-8);
+}
