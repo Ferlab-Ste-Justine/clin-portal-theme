@@ -184,9 +184,23 @@
   }
 
   &-link {
-    &:not(:disabled) {
-      span:not(:hover) {
+
+    &:not([disabled]){
+
+      &:not(:active):not(:focus-visible):not(:hover) span{
         text-decoration: underline;
+      }
+
+      &:not(:active){
+        color: @blue-8;
+      }
+  
+      &:active, &:focus-visible{
+        color: @blue-9;
+      }
+
+      &:focus-visible {
+        box-shadow: 0 0 0 2px @blue-9;
       }
     }
   }
