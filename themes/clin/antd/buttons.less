@@ -185,11 +185,11 @@
 
   &-link {
 
-    &:not([disabled]){
+    &:not(:active):not(:focus-visible):not(:hover) span{
+      text-decoration: underline;
+    }
 
-      &:not(:active):not(:focus-visible):not(:hover) span{
-        text-decoration: underline;
-      }
+    &:not([disabled]){
 
       &:not(:active){
         color: @blue-8;
