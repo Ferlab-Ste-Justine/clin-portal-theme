@@ -3,6 +3,11 @@
 
 html {
   font-size: 12px;
+
+  ::selection{
+    color: var(--grey-8);
+    background-color: var(--blue-2);
+  }
 }
 .ant-space-compact-block {
   max-width: 100%;
