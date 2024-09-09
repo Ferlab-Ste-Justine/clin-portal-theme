@@ -1,0 +1,19 @@
+{
+  "name": "clin-portal-theme",
+  "version": "1.0.0",
+  "description": "Unified theme for [Clin Portal](https://github.com/Ferlab-Ste-Justine/clin-portal-ui) and [Prescription Portal](https://github.com/Ferlab-Ste-Justine/clin-prescription-ui) See [Ferlab-ui Architecture](https://github.com/Ferlab-Ste-Justine/ferlab-ui/blob/master/packages/style/Architecture.md)",
+  "scripts": {
+    "theme:antd": "lessc --js ./themes/clin/antd-clin-theme.less ./dist/antd.css",
+    "theme:colors": "curl -sL https://raw.githubusercontent.com/Ferlab-Ste-Justine/ferlab-ui/master/packages/ui/themes/bin/less2css.js | node - ./themes/clin/ colors.less ./dist",
+    "theme": "npm run theme:antd && npm run theme:colors"
+  },
+  "peerDependencies": {
+    "@ferlab/ui": "10.x"
+  },
+  "devDependencies": {
+    "antd": "^4.24.15",
+    "less": "^4.2.0"
+  },
+  "author": "",
+  "license": "ISC"
+}
