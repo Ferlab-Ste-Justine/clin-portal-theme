@@ -1,5 +1,6 @@
+@import '../../dist/antd';
 @import '~@ferlab/ui/themes/default/theme.template';
-@import './dist/colors';
+@import '../../dist/colors';
 
 :root{
     --font-weight-semibold: 500;
