@@ -62,9 +62,17 @@
     }
 }
 
-.ant-tag a {
-    color: inherit;
-}
-.ant-tag a:hover  {
-    color: inherit;
+.ant-tag{
+    a{
+        color: inherit;
+
+        &:hover {
+            color: inherit;
+        }
+    }
+    
+    &.status-tag-white{
+        color: @gray-8;
+        background-color: transparent;
+    }
 }
