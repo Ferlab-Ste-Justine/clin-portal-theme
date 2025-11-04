@@ -1286,14 +1286,14 @@ html {
   border: 1px solid #8bd7f4;
 }
 .ant-alert-info .ant-alert-icon {
-  color: #23a4d7;
+  color: #1382BE;
 }
 .ant-alert-warning {
   background-color: #FFFBE6;
   border: 1px solid #FFD666;
 }
 .ant-alert-warning .ant-alert-icon {
-  color: #FAAD14;
+  color: #D48806;
 }
 .ant-alert-error {
   background-color: #fcf6f5;

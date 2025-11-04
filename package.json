@@ -7,9 +7,6 @@
     "theme:colors": "curl -sL https://raw.githubusercontent.com/Ferlab-Ste-Justine/ferlab-ui/master/packages/ui/themes/bin/less2css.js | node - ./themes/clin/ colors.less ./dist",
     "theme": "npm run theme:antd && npm run theme:colors"
   },
-  "peerDependencies": {
-    "@ferlab/ui": "10.x"
-  },
   "devDependencies": {
     "antd": "^4.24.15",
     "less": "^4.2.0"
