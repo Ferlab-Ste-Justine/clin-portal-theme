@@ -1,0 +1,18 @@
+---
+name: Shai-Hulud detection
+on:
+  push:
+  workflow_dispatch:
+
+jobs:
+  shai-hulud-scanner:  # https://github.com/sngular/shai-hulud-integrity-scanner/tree/main
+    runs-on: ubuntu-latest
+    name: Detect known Shai-Hulud signatures
+    steps:
+      - uses: actions/checkout@v2
+      - name: Shai-Hulud scan-project.sh
+        run: |
+          rm -rf $GITHUB_WORKSPACE/.github/workflows/shai-hulud.yml # remove current workflow to avoid scanning itself
+          rm -rf $GITHUB_WORKSPACE/.github/workflows/shai-hulud-allowed-patterns.txt # remove allowed patterns file
+          curl -s https://raw.githubusercontent.com/sngular/shai-hulud-integrity-scanner/refs/heads/main/scan-project.sh | bash /dev/stdin $GITHUB_WORKSPACE
+        #  continue-on-error: true
