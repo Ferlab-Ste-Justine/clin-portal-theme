@@ -26551,7 +26551,7 @@ div.ant-typography-edit-content.ant-typography-rtl {
   font-weight: 300;
   font-stretch: normal;
   font-display: swap;
-  src: url(https://fonts.gstatic.com/s/roboto/v49/KFOMCnqEu92Fr1ME7kSn66aGLdTylUAMQXC89YmC2DPNWuaabVmUiA8.ttf) format('truetype');
+  src: url(https://fonts.gstatic.com/s/roboto/v50/KFOMCnqEu92Fr1ME7kSn66aGLdTylUAMQXC89YmC2DPNWuaabVmUiA8.ttf) format('truetype');
 }
 @font-face {
   font-family: 'Roboto';
@@ -26559,7 +26559,7 @@ div.ant-typography-edit-content.ant-typography-rtl {
   font-weight: 400;
   font-stretch: normal;
   font-display: swap;
-  src: url(https://fonts.gstatic.com/s/roboto/v49/KFOMCnqEu92Fr1ME7kSn66aGLdTylUAMQXC89YmC2DPNWubEbVmUiA8.ttf) format('truetype');
+  src: url(https://fonts.gstatic.com/s/roboto/v50/KFOMCnqEu92Fr1ME7kSn66aGLdTylUAMQXC89YmC2DPNWubEbVmUiA8.ttf) format('truetype');
 }
 @font-face {
   font-family: 'Roboto';
@@ -26567,7 +26567,7 @@ div.ant-typography-edit-content.ant-typography-rtl {
   font-weight: 500;
   font-stretch: normal;
   font-display: swap;
-  src: url(https://fonts.gstatic.com/s/roboto/v49/KFOMCnqEu92Fr1ME7kSn66aGLdTylUAMQXC89YmC2DPNWub2bVmUiA8.ttf) format('truetype');
+  src: url(https://fonts.gstatic.com/s/roboto/v50/KFOMCnqEu92Fr1ME7kSn66aGLdTylUAMQXC89YmC2DPNWub2bVmUiA8.ttf) format('truetype');
 }
 .ant-table-cell a {
   text-decoration: underline;
@@ -27116,4 +27116,9 @@ body {
 .ant-modal-confirm-warning .ant-modal-confirm-body > .anticon,
 .ant-modal-confirm-confirm .ant-modal-confirm-body > .anticon {
   color: #d46b08;
+}
+.ant-modal-body {
+  min-height: auto;
+  max-height: calc(-120px + 95vh);
+  overflow-y: auto;
 }
